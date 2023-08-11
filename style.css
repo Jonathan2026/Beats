@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(to right, rgb(25, 25, 153), rgb(85, 85, 243), rgb(11, 11, 104));
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+button{
+    padding: 10px;
+    margin: 2px;
+}
+
+#audioDiv{
+    display: flex;
+    justify-content: center;
+}
+
+#record{
+    background-color: rgb(167, 61, 61);
+    border: solid 2px black;
+    margin: 20px;
+}
+
+#play{
+    background-color: rgb(87, 196, 87);
+    border: solid 2px black;
+    margin: 20px;
+}
+
+#save{
+    margin: 20px;
+    background-color: rgb(245, 165, 60);
+}
+
+#final{
+    margin: 20px;
+    background-color:lightcoral;
+}
+
+#logs{
+    text-align: center;
+}
+
